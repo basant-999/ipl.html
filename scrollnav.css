@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+.two_section_navbar{
+    position: sticky;
+    top: 0px;
+
+}
+.two_section_navbar ul li img {
+    width: 50px;
+    border-radius: 50%;
+}
+.two_section_navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: yellow;
+}
+.two_section_navbar ul li ul li a {
+    text-decoration: none;
+    margin: 20px;
+}
+/* hero section */
+.hero{
+    display: flex;
+
+}
+.hero article .div1{
+    font-size: 32px;
+    font-weight: 600;
+
+}
+.hero article .div2{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px 5px 10px 5px;
+}
+.hero article .div3{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 5px 10px 5px;
+    background-color: black;
+    color: yellow;
+    width: 120px;
+    border-radius: 5px;
+    position: sticky;
+    top:0px
+}
+#enquire{
+    position:fixed;
+    bottom: 100px;
+    right: 100px;
+    padding: 30px;
+    font-size: 30px;
+    color:blue;
+    background-color: brown;
+    border-radius: 50%;
+}

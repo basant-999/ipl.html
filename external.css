@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+.service{
+
+    color: chartreuse;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.about{
+
+    color: darkgreen;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.home{
+
+    color: blue;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.contect{
+
+    color: darkviolet;
+    text-decoration: none;
+    margin: 10px;
+}

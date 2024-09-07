@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*==============top navbar=======*/
+.topnav{
+    background-color: black;
+    text-align: center;
+    color: wheat;
+    padding: 20px;
+    
+}
+.topnav u{
+    margin: 20px;
+    cursor: pointer;
+}
+.topnav span{
+    margin-right: 10px;
+}
+/*================mid navbar========*/
+.midnavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 0px 100px 0px 100px;
+    background-color: blue;
+    color: white
+}
+.midnavbar article{
+    display: flex;
+}
+.midnavbar article div a {
+    text-decoration: none;
+    color: white;
+}
+.midnavbar div{
+    margin: 10px;
+}
+.midnavbar2{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 0px 150px 0px 150px ;
+    background-color: blue;
+}
+.midnavbar2 article{
+    display: flex;
+    
+    
+}
+.midnavbar2 article div{
+    margin: 20px 100px 20px 100px;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    
+}
+/*========================mainnavbar=================*/
+.mainnavbar{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 20px;
+    
+    
+}
+.mainnavbar article{
+    display: flex;
+    
+}
+.mainnavbar article a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+.mainnavbar article div {
+    margin: 10px;
+}
+/*=============================hero section=========================*/
+.hero {
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   background-color: rgb(133, 133, 196);
+  
+}
+.hero article .div1{
+    font-size: 24px;
+    margin-left: 100px;
+}
+.hero article .div2{
+    font-size: 68px;
+    margin-left: 100px;
+}
+.hero article .div3{
+    font-size: 30px;
+    margin-left: 100px
+}
+ 
+
+.hero article .div5{
+    background-color: black;
+    font-size: 24px;
+    color: white;
+    margin-top: 300px;
+    margin-right: 200px;
+    padding: 20px;
+}
+/*===============================*/
+.card {
+    display: grid;
+    grid-template-columns: auto auto  auto auto;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.card article{
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+.card article div img{
+    width: 200px;
+}
+/*==========================*/
+.about h1{
+    align-items: center;
+}
+
+
+

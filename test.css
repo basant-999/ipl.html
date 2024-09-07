@@ -1,0 +1,29 @@
+
+
+.jessica{
+    text-align: center;
+    font-size: 64px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.navbar ul li a {
+    margin: 20px;
+    text-decoration: none;
+
+}
+.hero{
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-image: url( 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTED2P1DHpS-7kOxeplRPYoXZoBxkYrYTV3zQ&s');
+}
+.hero div{
+
+padding-top: 300px;
+font-size: 32px;
+}

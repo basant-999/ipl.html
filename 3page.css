@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.three_section_navbar ul li img{
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 400px;
+}
+.three_section_navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+
+    
+    padding: 20px;
+    background-color: brown;
+}
+.three_section_navbar ul li ul li a{
+    text-decoration: none;
+    margin: 20px;
+
+
+}   

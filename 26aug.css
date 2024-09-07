@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.body{
+    overflow-x: hidden;
+}
+.html{
+    overflow-x: hidden;
+}
+/*========side fixed four option======*/
+.sidefixed{
+    position: fixed;
+    top: 150px;
+    right: 0px;
+
+}
+.sidefixed div{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    margin: 20px 0px 20px 0px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.sidefixed div i{
+    color: blue;
+    font-size: xx-large;
+}
+
+/*=========================================*/
+.topnav {
+    background-color: black;
+    padding: 20px;
+    color: wheat;
+    text-align: center;
+    align-items: center;
+
+}
+.topnav u{
+    cursor:pointer;
+    margin-left: 10px;
+}
+#greater{
+    margin-left: 100px;
+}
+#less{
+    margin-right: 100px;
+}
+#xmark{
+    right: 10px;
+    position: absolute;
+}
+
+/*======================================================*/
+.midnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+    border-bottom: 1px solid black;
+
+}
+.midnav article{
+    display: flex;
+   
+}
+.midnav article div a{
+    text-decoration: none;
+}
+.midnav article div{
+    margin: 10px;
+}
+
+/*===============================================*/
+.mainnavbar{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 20px 100px 20px 30px;
+    
+
+}
+.mainnavbar article{
+    display: flex;
+}
+.mainnavbar article div a {
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+.mainnavbar article div a img{
+    margin-left: -200px;
+
+}
+
+/*==========================================*/
+.hero{
+    background-image: url(https://www.portotheme.com/wordpress/porto/shop47/wp-content/uploads/sites/230/2023/11/porto47-intro-banner-1.jpg);
+    height: 100vh;
+    justify-content: space-evenly;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    
+}
+.hero article .div1{
+    font-size: 24px;
+}
+.hero article .div2{
+    font-size: 68px;
+}
+.hero article .div3{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+/*==============================================*/
+.speed{
+    font-size: 124px;
+    font-weight: 50px;
+    top: 300px;
+    left: 800px;
+    position: absolute;
+    z-index: 2;
+    color: white;
+}
+.hero article div img{
+    z-index: 3;
+    position: relative;
+}
+/*========================================================*/
+
+.bigspeed{
+    font-size: 300px;
+    left: 600px;
+    top: 150px;
+    position: absolute;
+    color: white;
+    z-index: 1;
+    opacity: 0.5;
+}
+.price{
+    position: absolute;
+    left: 750px;
+    top: 720px;
+}
+/*====================================*/
+
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    background-color: rgb(235, 233, 233);
+     
+}
+.card article{
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    
+}
+.card article div img{
+    width: 150px;
+}
+
+
+
+    
+    
+
+
+    
+   
+
+
+
+

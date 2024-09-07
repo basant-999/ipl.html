@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .store {
+    color: brown;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  .mac {
+    color: blue;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  .ipad {
+    color: yellow;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  .iphone {
+    color: pink;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  .watch {
+    color: green;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  .vision {
+    color: red;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  .airpods {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  .tv & home {
+    color: darkmagenta;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  .entertainment {
+    color: red;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  .accessories {
+    color: sandybrown;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  .support {
+    color: slateblue;
+    text-decoration: none;
+    margin: 10px;
+  }
+  .fa-apple{
+    color: brown;
+  }
